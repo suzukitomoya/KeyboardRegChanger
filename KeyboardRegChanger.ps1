@@ -26,7 +26,7 @@ switch($in) {
   }
 }
 
-$in = Read-Host "Done! Can I restart windows?(y/n)"
+$in = Read-Host "Done! Can I restart computer?(y/n)"
 switch ($in) {
   "y" { Restart-Computer }
   "n" { exit }
